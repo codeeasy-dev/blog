@@ -51,17 +51,7 @@ E quem são essas pessoas que darão as ordens? São os PROGRAMADORES!
 
 Como dito o computador pode ser programado e reprogramado para fazer diversas coisas, logo quem o programa é o programador e para fazer isso ele precisa se comunicar com o computador e mandâ-lo fazer certas coisas.
 
-Seria simples se fosse como na vida real, "envie essa mensagem", "imprima esse documento", mas o computador entende outra coisa, ele entende apenas o binário (0 e 1).
-
-Se você ainda não está acostumado uma coisa que eu posso te dizer é que a matemática consegue representar praticamente tudo, ou quase tudo, nesse mundo, por isso ela é tão importante, mas nós conhecemos e utilizamos mais o sistema decimal (de 0 a 9) e as combinações desses números, porém também temos:
-
-- o sistema octal (de 0 a 7) = 0 1 2 3 4 5 6 7;
-- o hexadecimal (de 0 a F) = 0 1 2 3 4 5 6 7 8 9 A B C D E F; e
-- o binário (0 e 1) = 0 1.
-
-Por exemplo, **0** no sistema binário é **0**, **1** no sistema binário é **1**, **2** no sistema binário é **10** (um zero, não dez), sendo assim **1100** (um um zero zero) é igual a **12** no sistema decimal.
-
-Podemos fazer o cáculo de que `12 + 12 = 24` e `1100 + 1100 = 11000`, é a mesma coisa em sistemas númericos diferentes.
+Seria simples se fosse como na vida real, "envie essa mensagem", "imprima esse documento", mas o computador entende outra coisa, ele entende apenas o binário, a combinação de zero e um (0 e 1).
 
 Como os números podem representar diversas coisas a junção dos mesmos pode formar tudo o que o computador entrega para a gente e, como o sistema binário trabalha com apenas dois números a matemática é bem mais simples, o computador consegue ser bem mais rápido que o cérebro humano em alguns cálculos, embora seja incapaz de funcionar sem a ajuda do ser humano, é uma combinação de conhecimento do ser humano com a velocidade do computador.
 
@@ -83,9 +73,7 @@ Dados todos esses pontos foi criado uma forma de se comunicar com o computador e
 
 ![Lingaugens de programação](/assets/posts/0001/linguagens-de-programacao.jpg)
 
-O que é uma linguagem de programação?
-
-É uma linguagem específica para se comunicar com o computador, mandar instruções para o mesmo a fim de que ele as execute.
+A linguagem de programação é uma linguagem específica para se comunicar com o computador, mandar instruções para o mesmo a fim de que ele as execute.
 
 Por exemplo, vamos supor que existe uma palavra chave, **ESCREVA**, ela manda a ordem para o computador escrever algo, e você envia o seguinte para o computador:
 
@@ -117,7 +105,7 @@ print(number_1 + number_2)
 
 Não precisa se preocupar em entender o que acabou de acontecer aqui em cima, isso vem com o tempo e com o estudo.
 
-Assim conseguimos mandar as instruções para o computador afim de que o mesmo possa executá-las. Veja no exemplo abaixo esse trecho de código sendo executado.
+Assim conseguimos mandar as instruções para o computador afim de que o mesmo possa executá-las. Veja no vídeo abaixo esse trecho de código sendo executado.
 
 <script id="asciicast-VhmAd4juwiqctMcH6e2xrNWcz" src="https://asciinema.org/a/VhmAd4juwiqctMcH6e2xrNWcz.js" async data-speed="1.5"></script>
 
@@ -194,7 +182,7 @@ Vamos pensar o seguinte, um computador é qualquer componente eletrônico que po
 
 Sendo assim qualquer computador pode receber um código e ser programado para fazer algo.
 
-Imagine um robo que é utilizado para montar carros, ou partes do mesmo, existe um computador dentro dele e é possível escrever um código para mandâ-lo fazer algo.
+Imagine um robô que é utilizado para montar carros, ou partes do mesmo, existe um computador dentro dele e é possível escrever um código para mandâ-lo fazer algo.
 
 Imagine um console de video-game, PS5 e PS4, Xbox Series e One, Nintendo Switch e até o seu celular, são computadores, você pode escrever códigos que virão a se tornar jogos.
 
@@ -204,7 +192,7 @@ Até programas que serão utilizados para fazer outros programas podem ser criad
 
 Se você tiver um computador e imaginação você pode ir longe.
 
-É claro, para cada tipo de situação você tem maneiras diferentes de se trabalhar, eu por exemplo trabalho com desenvolvimento web consturindo web sites e o que acontece por detrás deles, também estou estudando desenvolvimento de games.
+É claro, para cada tipo de situação você tem maneiras diferentes de se trabalhar, eu por exemplo trabalho com desenvolvimento web construindo web sites e o que acontece por detrás deles, também estou estudando desenvolvimento de games.
 
 Se você me pedir para construir um aplicativo para celular ou um programa para um robô eu precisarei estudar novos assuntos.
 
