@@ -5,7 +5,7 @@ date:   2022-10-15 13:14:04 -0300
 categories: programação
 ---
 
-![o que é a programação de computadores?](/assets/0001/banner.png)
+![o que é a programação de computadores?](/assets/posts/0001/banner.png)
 
 Smartphones, computadores, notebooks, smart TVs, smart watch, isso sem falar dos softwares, Facebook, Instagram, Tik Tok, YouTube, Google, WhatsApp, dentre vários outros.
 
@@ -29,7 +29,7 @@ Então bora entender sobre o mundo da programação?
 
 ## Entendendo a programação de computadores
 
-![Entendendo a programação de computadores](/assets/0001/entendendo-a-programacao-de-computadores.jpg)
+![Entendendo a programação de computadores](/assets/posts/0001/entendendo-a-programacao-de-computadores.jpg)
 
 Primeiro vamos entender o que é um computador.
 
@@ -45,7 +45,7 @@ Ok, mas se é um dispositivo que pode ser usado para fazer várias coisas então
 
 E quem são essas pessoas que darão as ordens? São os PROGRAMADORES!
 
-![programadores](/assets/0001/programadores.jpg)
+![programadores](/assets/posts/0001/programadores.jpg)
 
 Como dito o computador pode ser programado e reprogramado para fazer diversas coisas, logo quem o programa é o programador e para fazer isso ele precisa se comunicar com o computador e mandâ-lo fazer certas coisas.
 
@@ -79,7 +79,7 @@ Dados todos esses pontos foi criado uma forma de se comunicar com o computador e
 
 ## Linguagens de programação
 
-![Lingaugens de programação](/assets/0001/linguagens-de-programacao.jpg)
+![Lingaugens de programação](/assets/posts/0001/linguagens-de-programacao.jpg)
 
 O que é uma linguagem de programação?
 
@@ -135,7 +135,7 @@ Pra isso nós temos os compiladores e os interpretadores.
 
 ## Compiladores e interpretadores
 
-![compilador](/assets/0001/compilador.png)
+![compilador](/assets/posts/0001/compilador.png)
 
 Pense assim, escrevemos esse código que você viu acima e o computador entendeu, se o computador fala uma lingua e você outra precisamos de alguém para traduzir.
 
@@ -186,7 +186,7 @@ Então entendemos o processo, escrevemos um código e o computador obedece...
 
 ## O que é possível fazer com a programação de computadores?
 
-![Mundo da programação](/assets/0001/mundo-da-programacao.jpg)
+![Mundo da programação](/assets/posts/0001/mundo-da-programacao.jpg)
 
 Vamos pensar o seguinte, um computador é qualquer componente eletrônico que pode ser programado e reprogramado, o seu smart watch, smart TV, smart phone, notebook, até uma plaquinha pequena (um microcontrolador ou um microcomputador) que vai numa máquina usada numa fábrica ou numa indústria.
 
@@ -220,7 +220,7 @@ O ponto agora é, eu quero escrever esses códigos, eu posso escrevê-los em qua
 
 ## Editores e IDEs
 
-![Editores e IDEs](/assets/0001/editores-e-ides.png)
+![Editores e IDEs](/assets/posts/0001/editores-e-ides.png)
 
 Vamos falar então dos editores e das IDEs.
 
@@ -248,7 +248,7 @@ Sendo assim, com os editores e IDEs temos programas mais específicos para escre
 
 ## Como posso começar a aprender sobre programação de computadores?
 
-![Estudando programação](/assets/0001/estudando-programacao.jpg)
+![Estudando programação](/assets/posts/0001/estudando-programacao.jpg)
 
 Primeiramente é importante entender os conceitos, conhecer o básico sobre programação e começar desenvolvendo programas mais simples.
 
