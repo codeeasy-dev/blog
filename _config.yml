@@ -1,7 +1,7 @@
 # Site
 name: "Code Easy"
 title: "Code Easy"
-description: "A Code Easy é um local para você aprender sobre o mundo da programação de computadores. Junte-se a nós, venha aprender mais sobre esse mundo e se torne um programador."
+description: "Aprenda de forma simples e prática"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
