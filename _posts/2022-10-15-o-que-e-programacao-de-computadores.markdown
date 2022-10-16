@@ -2,10 +2,12 @@
 layout: post
 title:  "O Que é Programação de Computadores?"
 date:   2022-10-15 13:14:04 -0300
+author: felipe
 categories: programação
+image: assets/posts/0001/banner.png
+featured: true
+hidden: true
 ---
-
-![o que é a programação de computadores?](/assets/posts/0001/banner.png)
 
 Smartphones, computadores, notebooks, smart TVs, smart watch, isso sem falar dos softwares, Facebook, Instagram, Tik Tok, YouTube, Google, WhatsApp, dentre vários outros.
 
