@@ -8,7 +8,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 #
-# If you need help with YAML syntax, here are some quick references for you: 
+# If you need help with YAML syntax, here are some quick references for you:
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 #
@@ -21,7 +21,7 @@
 title: Code Easy
 email: felipe@codeeasy.com.br
 description: >- # this means to ignore newlines until "baseurl:"
-  A Code Easy é um local para você aprender sobre o mundo da programação de computadores. Junte-se a nós e venha aprender mais sobre esse mundo e se tornar um programador.
+  A Code Easy é um local para você aprender sobre o mundo da programação de computadores. Junte-se a nós, venha aprender mais sobre esse mundo e se torne um programador.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.codeeasy.com.br" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
