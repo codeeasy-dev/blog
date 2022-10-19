@@ -60,10 +60,46 @@
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">Início</a>
                 </li>
 
+                {% if page.url == "/noticias" %}
+                <li class="nav-item active">
+                {% else %}
                 <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/noticias">Notícias</a>
+                </li>
+
+                {% if page.url == "/programacao" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/programacao">Programação</a>
+                </li>
+
+                {% if page.url == "/tutoriais" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/tutoriais">Tutoriais</a>
+                </li>
+
+                {% if page.url == "/tecnologias" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
+                <a class="nav-link" href="{{ site.baseurl }}/tecnologias">Tecnologias</a>
+                </li>
+
+                {% if page.url == "/sobre" %}
+                <li class="nav-item active">
+                {% else %}
+                <li class="nav-item">
+                {% endif %}
                 <a class="nav-link" href="{{ site.baseurl }}/sobre">Sobre</a>
                 </li>
 
@@ -149,11 +185,11 @@
             {% assign categories_list = site.categories %}
             {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}/{{ category | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} ({{ site.tags[category].size }})</a>
                 {% endfor %}
             {% else %}
                 {% for category in categories_list %}
-                    <a class="mt-1 mb-1" href="{{site.baseurl}}/categories#{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
+                    <a class="mt-1 mb-1" href="{{site.baseurl}}/{{ category[0] | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} ({{ category[1].size }})</a>
                 {% endfor %}
             {% endif %}
             {% assign categories_list = nil %}

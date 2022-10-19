@@ -3,7 +3,7 @@ layout: post
 title:  "Bem Vindo à Code Easy"
 date:   2022-10-14 13:14:04 -0300
 author: felipe
-categories: notícias
+categories: noticias
 image: assets/posts/0000/banner.png
 featured: true
 hidden: true

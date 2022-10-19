@@ -3,7 +3,7 @@ layout: post
 title:  "O Que é Programação de Computadores?"
 date:   2022-10-15 13:14:04 -0300
 author: felipe
-categories: programação
+categories: programacao
 image: assets/posts/0001/banner.png
 featured: true
 hidden: true
