@@ -1,0 +1,32 @@
+<data id="mj-w-res-data" data-token="007e252102e09368976f9e3af0dd1939" class="mj-w-data" data-apikey="6Fuj" data-w-id="OoB" data-lang="pt_PT" data-base="https://app.mailjet.com" data-width="640" data-height="328" data-statics="statics"></data>
+
+<script type="text/javascript" src="https://app.mailjet.com/statics/js/widget.modal.js"></script>
+
+<script>
+  let mustShowNewsletter = false;
+
+  setTimeout(() => mustShowNewsletter = true, 10000)
+
+  document.addEventListener('mouseleave', event => {
+    if (mustShowNewsletter) {
+      document.getElementById("newsletter-button").click()
+
+      mustShowNewsletter = false
+
+      setTimeout(() => mustShowNewsletter = true, 900000)
+    }
+  })
+</script>
+
+<div class="alertbar">
+	<div class="container text-center">
+		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Não perca nenhuma novidade nossa, se inscreva na nossa <i><b>newsletter</b></i> &nbsp;</span>
+        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+            <div class="mc-field-group">
+            <input id="newsletter-button" type="button" value="Inscrever-se" name="subscribe" class="heart" data-token="007e252102e09368976f9e3af0dd1939" onclick="mjOpenPopin(event, this)">
+            </div>
+        </form>
+	</div>
+</div>
+
+</div>
