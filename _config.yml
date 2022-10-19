@@ -4,6 +4,7 @@ title: "Code Easy"
 description: "Aprenda de forma simples e prática!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
+url: "https://blog.codeeasy.com.br"
 baseurl: ""
 google_analytics: 'G-GWR4BHF495'
 disqus: 'code-easy'
