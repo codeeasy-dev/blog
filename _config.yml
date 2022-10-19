@@ -4,9 +4,9 @@ title: "Code Easy"
 description: "Aprenda de forma simples e prática!"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: ""
-google_analytics: ''
-disqus: 'demowebsite'
+baseurl: "https://blog.codeeasy.com.br"
+google_analytics: 'G-GWR4BHF495'
+disqus: 'code-easy'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -16,7 +16,7 @@ authors:
   felipe:
     name: "Felipe Renan Vieira"
     display_name: "Felipe Vieira"
-    avatar: 'assets/images/avatar.png'
+    avatar: 'assets/images/writers/felipe.jpg'
     email: feliperenanvieira@gmail.com
     description: "Desenvolvedor web e fundador da Code Easy"
 
