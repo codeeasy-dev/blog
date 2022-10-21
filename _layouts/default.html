@@ -4,8 +4,27 @@
 
 {% include g-analytics.html %}
 
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:type" content="{{ page.ogtype | default: 'website' }}" />
+{% if page.description %}
+  <meta property="og:description" content="{{ page.description }}"/>
+{% endif %}
+<meta property="og:image" content="{{ site.baseurl }}/{{ page.image }}" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:site_name" content="Code Easy | Blog" />
+<meta property="fb:admins" content="codeeasy.com.br" />
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:url" content="{{ site.url }}" />
+<meta property="twitter:title" content="{{ page.title }}" />
+{% if page.description %}
+  <meta property="twitter:description" content="{{ page.description }}"/>
+{% endif %}
+<meta property="twitter:image" content="{{ site.baseurl }}/{{ page.image }}" />
+
 
 <link rel="icon" href="{{ site.baseurl }}/assets/images/logo.png">
 

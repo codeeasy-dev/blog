@@ -7,6 +7,7 @@ categories: programacao
 image: assets/posts/0001/banner.png
 featured: true
 hidden: true
+ogtype: blog
 ---
 
 Smartphones, computadores, notebooks, smart TVs, smart watch, isso sem falar dos softwares, Facebook, Instagram, Tik Tok, YouTube, Google, WhatsApp, dentre vários outros.

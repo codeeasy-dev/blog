@@ -7,6 +7,7 @@ categories: noticias
 image: assets/posts/0000/banner.png
 featured: true
 hidden: true
+ogtype: blog
 ---
 
 Depois de cerca de 2 anos estamos de volta com os nossos conteúdos, incluindo o nosso Blog, canal no YouTube, Instagram e Cursos.
