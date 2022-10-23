@@ -41,6 +41,15 @@ post_class: post-template
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
 
+                {% assign words = content | number_of_words %}
+                <span class="badge badge-secondary">
+                  {% if words < 360 %}
+                    Tempo de leitura de 1 minuto.
+                  {% else %}
+                    Tempo de leitura de {{ words | divided_by:180 }} minutos.
+                  {% endif %}
+                </span>
+
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
