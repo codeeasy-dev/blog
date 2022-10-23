@@ -27,6 +27,6 @@ Para não perder nada não se esqueça de nos seguir:
 
 - Siga-nos no [INSTAGRAM](https://instagram.com/codeeasy.dev){:target="_blank"};
 - Inscreva-se no nosso canal no [YOUTUBE](https://youtube.com/CodeEasy){:target="_blank"}; e
-- Assine a nossa NEWSLETTER para receber novidades no seu e-mail;
+- Assine a nossa <a href="#" data-token="007e252102e09368976f9e3af0dd1939" onclick="mjOpenPopin(event, this)">NEWSLETTER</a> para receber novidades no seu e-mail;
 
 Espero que aproveite os nossos conteúdos e, mais uma vez, seja bem vindo à Code Easy! 😁✌️
