@@ -25,11 +25,9 @@ Então bora entender sobre o mundo da programação?
 
 1. [Entendendo a programação de computadores;](#entendendo-a-programação-de-computadores)
 2. [Linguagens de programação;](#linguagens-de-programação)
-3. [Compiladores e interpretadores;](#compiladores-e-interpretadores)
-4. [O que é possível fazer com a programação de computadores?](#o-que-é-possível-fazer-com-a-programação-de-computadores)
-5. [Editores e IDEs;](#editores-e-ides)
-6. [Como posso começar a aprender sobre programação de computadores?](#como-posso-começar-a-aprender-sobre-programação-de-computadores)
-7. [Conclusão.](#conclusão)
+3. [O que é possível fazer com a programação de computadores?](#o-que-é-possível-fazer-com-a-programação-de-computadores)
+4. [Como posso começar a aprender sobre programação de computadores?](#como-posso-começar-a-aprender-sobre-programação-de-computadores)
+5. [Conclusão.](#conclusão)
 
 ## Entendendo a programação de computadores
 
@@ -43,11 +41,15 @@ Também podemos dizer que um computador é um dispositivo composto de partes ele
 
 Por exemplo, uma bicicleta é uma tecnologia que foi feita para se locomover e apenas isso, mas um computador pode ser programado para enviar uma mensagem para outro computador, pode ser reprogramado para executar um jogo e ainda pode ser reprogramado para criar documentos que serão impressos e entregues por um aluno a uma professora num trabalho de escola.
 
-Sendo assim um celular, um notebook, uma smart TV, tudo isso pode ser considerado um computador.
+Sendo assim um celular, um notebook, uma smart TV e até um video-game, tudo isso pode ser considerado um computador.
 
-Ok, mas se é um dispositivo que pode ser usado para fazer várias coisas então isso quer dizer que é necessário que alguém de essas ordens para ele, certo? Exato.
+> Ok, mas se é um dispositivo que pode ser usado para fazer várias coisas então isso quer dizer que é necessário que alguém de essas ordens para ele, certo?
 
-E quem são essas pessoas que darão as ordens? São os PROGRAMADORES!
+Exato.
+
+> E quem são essas pessoas que darão as ordens?
+
+São os **PROGRAMADORES**!
 
 ![programadores](/assets/posts/0001/programadores.jpg)
 
@@ -57,7 +59,9 @@ Seria simples se fosse como na vida real, "envie essa mensagem", "imprima esse d
 
 Como os números podem representar diversas coisas a junção dos mesmos pode formar tudo o que o computador entrega para a gente e, como o sistema binário trabalha com apenas dois números a matemática é bem mais simples, o computador consegue ser bem mais rápido que o cérebro humano em alguns cálculos, embora seja incapaz de funcionar sem a ajuda do ser humano, é uma combinação de conhecimento do ser humano com a velocidade do computador.
 
-Então o computador não fala a mesma lingua que a gente, não dá para se comunicar diretamente com ele.
+Costumamos dizer que o computador é "burro" pois não tem a capacidade de funcionar sozinho, mas por outro lado ele é rápido.
+
+Então se o computador não fala a mesma lingua que a gente não dá para se comunicar diretamente com ele.
 
 Além disso ainda temos o problema da comunicação humana que é de um nível muito alto, com isso eu quero dizer o seguinte.
 
@@ -77,10 +81,10 @@ Dados todos esses pontos foi criado uma forma de se comunicar com o computador e
 
 A linguagem de programação é uma linguagem específica para se comunicar com o computador, mandar instruções para o mesmo a fim de que ele as execute.
 
-Por exemplo, vamos supor que existe uma palavra chave, **ESCREVA**, ela manda a ordem para o computador escrever algo, e você envia o seguinte para o computador:
+Por exemplo, vamos supor que existe uma palavra chave, **ESCREVA**, ela manda a ordem para o computador escrever algo, assim você pode enviar o seguinte para o computador:
 
 ```
-ESCREVA "Esse é o meu primeiro programa de computador"
+ESCREVA "Esse é o meu primeiro programa de computador."
 ```
 
 Esse programa tem como único objetivo exibir essa mensagem e ao abrí-lo você verá essa mensagem escrita.
@@ -94,7 +98,9 @@ NUMERO_2 = LEIA "Digite o segundo número: "
 ESCREVA NUMERO_1 + NUMERO_2
 ```
 
-Com isso você tem a instrução **LEIA** que pega algo que o usuário digitar, como no caso de digitar um e-mail e uma senha, depois você pega os dois valores e exibe a soma deles.
+Com isso você tem a instrução **LEIA** que pega algo que o usuário digitar e depois você pega os dois valores e exibe a soma deles.
+
+Você pode ter o exemplo de digitar um e-mail e uma senha para acessar um sistema, você pega dois valores e verifica se eles estão corretos.
 
 Basicamente falando é assim que funciona um código de um programa de computador, porém a maior parte das linguagens de programação usam o inglês, logo o código acima poderia ser escrito assim com uma linguagem chamada Python, por exemplo:
 
@@ -113,7 +119,7 @@ Assim conseguimos mandar as instruções para o computador afim de que o mesmo p
 
 Mas como escrevemos essas instruções?
 
-Através do que chamamos de código-fonte.
+Através do que chamamos de **CÓDIGO-FONTE**.
 
 Você pôde ver que escrevemos um texto acima para ordenar o computador a fazer algo, dessa mesma maneira podemos escrever diversas quantidades de texto com as linguagens de programação e enviar para o computador, assim ele processará esse texto e executará o que o mesmo manda.
 
@@ -123,54 +129,15 @@ Recapitulando, temos as linguagens de programação, com elas escrevemos o códi
 
 Mas depois do código pronto como temos a aplicação realmente funcionando? Se o computador entende apenas o binário como conseguimos nos comunicar com essas linguagens de programação?
 
-Pra isso nós temos os compiladores e os interpretadores.
+Para isso temos todo um processo para fazer o nosso código ser entendido por um computador através do que chamamos de compiladores e interpretadores, porém esse é um tópico mais avançado para você que está lendo esse post se for alguém que nunca teve contato com a programação e por isso deixaremos esse assunto para outro post.
 
-## Compiladores e interpretadores
+Por hora vale ressaltar apenas que os compiladores servem como um tradutor, eles pegam o nosso código e enviam para o computador num formato que ele consiga entender e executar os comandos.
 
-![compilador](/assets/posts/0001/compilador.png)
+Outro ponto importante é, onde posso escrever o meu código?
 
-Pense assim, escrevemos esse código que você viu acima e o computador entendeu, se o computador fala uma lingua e você outra precisamos de alguém para traduzir.
+Para isso você deve usar os editores e as IDEs, porém esse é um tópico que, mesmo que não seja complexo como o de compiladores e interpretadores, pode vir a ser grande e por isso também será abordado em outro post.
 
-Esse é o trabalho tanto do compilador quanto do interpretador, âmbos fazem um serviço similar de maneira diferente.
-
-Vamos começar com o compilador.
-
-Basicamente falando o compilador pega o seu código e o traduz para uma linguagem que o computador é capaz de entender, o que chamamos de linguagem de máquina, ele também realiza outros processos, mas vamos nos focar na tradução do seu código.
-
-Se pegarmos por exemplo a linguagem de programação conhecida como C temos o compilador GCC, podemos usar ele para transformar o nosso código em algo que o computador entenderá e depois executar. Veja no vídeo abaixo.
-
-<script id="asciicast-NnknlrN4ckcqDrWfI2RUjNL9q" src="https://asciinema.org/a/NnknlrN4ckcqDrWfI2RUjNL9q.js" async data-speed="1.5"></script>
-
-Assim temos o processo de escrita do código e depois de compilação.
-
-Porém a compilação faz mais do que isso, ela analisa e otimiza o código também, embora não seja o ponto principal e seja necessário outro post para explicar mais sobre isso vou deixar aqui o que um compilador costuma fazer.
-
-- Análise léxica;
-- Análise sintática;
-- Análise semântica;
-- Geração de código intermediário;
-- Otimização de código;
-- Geração de código objeto;
-
-E com isso temos a versão final do código que será entregue para o computador.
-
-Porém, além dos compiladores temos também os interpretadores.
-
-O interpretador faz algo similar ao compilador, mas em tempo real, enquanto o compilador lê todo o seu código para realizar todo o processo e gerar a versão final o interpretador faz isso enquanto lê o seu código.
-
-Em resumo, com o compilador você precisa compilar (gerar uma versão final) e depois executar o seu programa, já com o interpretador você faz tudo de uma vez.
-
-Isso tem os seus prós e os seus contras, mas isso será melhor explicado num post futuro específico sobre isso.
-
-Lembra do vídeo acima em que foi possível criar um código em C, gerar um executável com o GCC e executar o programa? Agora usaremos a linguagem Python que é interpretada, diferente do C que é compilada, olhe a diferença no processo.
-
-<script id="asciicast-aNVZrGgGW2E9jOrrfRNLEiuOV" src="https://asciinema.org/a/aNVZrGgGW2E9jOrrfRNLEiuOV.js" async data-speed="1.5"></script>
-
-Como você pode ver o código em Python não precisa criar um novo arquivo do programa, é tudo feito direto.
-
-Isso não quer dizer que o interpretado é melhor que o compilado, apenas quer dizer que eles são diferentes e que cada caso é um caso.
-
-Com isso conseguimos entender que temos as linguagens de programação e que temos os compiladores e os interpretadores que traduzem as mesmas para que o computador possa entender, assim podemos escrever os nossos códigos, compilá-los ou interpretá-los e o computador nos obedecerá, por assim dizer.
+Por hora vale entender que você usa um editor ou IDE para escrever o seu código-fonte e que um compilador ou um interpretador fará o serviço de entregá-lo de uma forma legível para que o computador execute.
 
 Então entendemos o processo, escrevemos um código e o computador obedece...
 
@@ -208,35 +175,9 @@ Por que o Instagram existe? Para conectar as pessoas numa rede social.
 
 Então sempre que for criar um programa de computador pense, que problema eu quero resolver?
 
-O ponto agora é, eu quero escrever esses códigos, eu posso escrevê-los em qualquer lugar ou tenho um programa específico?
+Ao descobrir que problema você quer resolver tudo fica mais claro no processo.
 
-## Editores e IDEs
-
-![Editores e IDEs](/assets/posts/0001/editores-e-ides.png)
-
-Vamos falar então dos editores e das IDEs.
-
-Comecemos pelas IDEs (Integrated Development Environment) ou em português Ambiente de Desenvolvimento Integrado.
-
-Essa é uma ferramenta que contempla diversos itens necessários para desenvolver um programa, você tem um editor para escrever o seu código-fonte com recursos que te ajudam a escrevê-lo de forma correta, você tem ferramentas que ajudam no processo de compilação, você tem um Debugger, item esse que será mencionado em outro post, além de outras ferramentas que dependem de cada IDE.
-
-Eu, por exemplo, sou um programador PHP e trabalho com a IDE PHP Storm, temos outras como o PyCharm para Python, para C temos o CodeBlocks ou o CLion, para C# temos o Visual Studio, e asism por diante.
-
-Mas será que eu não posso usar um bloco de notas, por exemplo?
-
-Sim, você pode, assim você digita o seu código, salve e faz todos os outros processos necessários de forma mais manual, como eu fiz nos vídeos acima, mas a IDE te trará recursos que podem agilizar e muito o seu trabalho e é recomendável usá-las.
-
-Qual IDE usar? Depende de qual linguagem você está usando e o que você fará com ela.
-
-E o editor? O que seria?
-
-O editor é mais simples, ele possui apenas uma área para editar o código-fonte em si, compilação, depuração, testes, tudo isso é feito de forma manual.
-
-O bloco de notas em si pode ser considerado um editor, existem outros que oferecem alguns recursos a mais, o Sublime Text, o Visual Studio Code (não confundir com Visual Studio), o Vim e o NeoVim.
-
-Porém vivemos numa atualidade em que os editores estão tão completos a ponto de se equipararem a IDEs, o próprio Visual Studio Code, embora seja um editor, consegue compilar, fazer um processo de análise do código, depurar, executar testes, além de diversas outras coisas, então se torna quase uma IDE faltando poucos ou até nenhum recurso.
-
-Sendo assim, com os editores e IDEs temos programas mais específicos para escrever os nossos códigos e criar os nossos programas de computadores.
+E agora que você viu o que um programador pode fazer vamos para o último tópico.
 
 ## Como posso começar a aprender sobre programação de computadores?
 
@@ -256,4 +197,4 @@ A programação de computadores é uma área grande e com grandes possibilidades
 
 Então aprenda um pouco sobre programação, depois escolha uma área para começar a se aprofundar, escolha a sua linguagem e sua IDE e vamos começar a construir juntos as nossas soluções.
 
-Então que tal resolver problemas com o mundo da computação? Topa o desafio?
+Então, que tal resolver problemas com o mundo da computação? Topa o desafio?
