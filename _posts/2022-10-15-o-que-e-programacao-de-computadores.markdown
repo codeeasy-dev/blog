@@ -21,6 +21,10 @@ Mas uma pergunta perdura, como tudo funciona? Como conseguimos usar um aparelho 
 
 Então bora entender sobre o mundo da programação?
 
+> **OBSERVAÇÃO: Este conteúdo é destinado a um público que está iniciando na área e/ou nunca teve contato com a programação de computadores, devido a isso o conteúdo foi escrito de forma mais simples e prática e assuntos mais complexos como o funcionamento de compiladores e outros foram deixados de lados para serem abordados de forma mais técnica em outros posts.**
+>
+> **Sendo assim esse conteúdo deve ser considerado como um conteúdo introdutório à área de programação e não é recomendável a utilização do mesmo em trabalhos acadêmicos ou pesquisas.**
+
 ## Sumário:
 
 1. [Entendendo a programação de computadores;](#entendendo-a-programação-de-computadores)
